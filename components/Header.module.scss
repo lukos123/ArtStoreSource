@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  padding: 20px 20px;
+  background-color: #002e34;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.nav {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      margin: 0 15px;
+      .cart_link,
+      a {
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        color: white;
+        font-size: 15px;
+        transition: 0.2s;
+        &:hover {
+          transform: scale(1.1);
+        }
+        &:active {
+          transform: scale(0.95);
+        }
+        .number {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          top: -10px;
+          right: -10px;
+        }
+      }
+      .cart_link {
+        background-color: transparent;
+      }
+    }
+    align-items: center;
+  }
+}
+.active {
+  font-weight: bold;
+  transform: scale(1.1);
+}

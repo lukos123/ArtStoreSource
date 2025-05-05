@@ -1,0 +1,32 @@
+.page {
+  background-color: #fff;
+  padding: 10px;
+  .info {
+    text-align: center;
+
+    img {
+      width: 200px;
+    }
+    h2 {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+  .products_box {
+    margin: 20px;
+    text-align: center;
+    h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
+}

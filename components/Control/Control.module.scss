@@ -1,0 +1,47 @@
+.control {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  .sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .sortTo {
+      margin-left: 10px;
+      font-size: 20px;
+      width: 100px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    select {
+      font-size: 20px;
+      padding: 5px;
+      border-radius: 5px;
+
+      @media (max-width: 700px) {
+        width: 100px;
+      }
+    }
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      font-size: 25px;
+      text-align: center;
+      color: #5f5f5f;
+      transition: 0.2s ease;
+      &:hover {
+        color: #000000;
+      }
+      &:active {
+      }
+    }
+  }
+}

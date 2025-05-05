@@ -1,0 +1,10 @@
+.Container {
+  width: 1000px;
+  @media (max-width: 1000px) {
+    width: 700px;
+  }
+  @media (max-width: 700px) {
+    width: 500px;
+  }
+  margin: 0 auto;
+}

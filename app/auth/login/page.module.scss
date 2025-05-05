@@ -1,0 +1,17 @@
+.page {
+  input {
+    border: 1px rgb(166, 166, 166) solid;
+    font-size: 15px;
+    padding: 3px;
+  }
+  .input_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    label {
+      font-size: 15px;
+      padding: 3px;
+    }
+  }
+}

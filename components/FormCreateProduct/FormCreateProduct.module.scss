@@ -1,0 +1,47 @@
+.FormCreateProduct {
+  display: flex;
+
+  justify-content: center;
+
+  form {
+    width: 90%;
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    label {
+      font-size: 25px;
+      margin-bottom: 5px;
+    }
+    input,
+    textarea {
+      width: 80%;
+      padding: 5px;
+      font-size: 20px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #858585;
+    }
+    textarea {
+      height: 100px;
+    }
+    input[type="submit"] {
+      padding: 10px;
+      background-color: #12d96c;
+      color: white;
+      font-weight: bold;
+      width: 100px;
+      border: none;
+      transition: 0.2s ease;
+      &:hover {
+        background-color: #09ee70;
+        transform: scale(1.05);
+      }
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+}
